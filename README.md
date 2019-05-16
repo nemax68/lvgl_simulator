@@ -1,4 +1,4 @@
-# LVGL PC SIMULATOR project for simulate Littlev Graphics Library
+# OPEN-EYES LCD PC simulator
 
 This simulator is derived from [Littlev Graphic Library](https://github.com/littlevgl/lvgl) and is used to develop custom LCD interface over [OPEN-EYES platform](https://open-eyes.it) 
 
