@@ -19,7 +19,7 @@ include $(LVGL_DIR)/lvgl/lvgl.mk
 include $(LVGL_DIR)/lv_drivers/lv_drivers.mk
 include $(LVGL_DIR)/lv_examples/lv_examples.mk
 
-include $(LVGL_DIR)/openeyes/openeyes.mk
+include $(LVGL_DIR)/oegl_app/oegl_app.mk
 
 CSRCS +=$(LVGL_DIR)/mouse_cursor_icon.c
 
@@ -35,7 +35,7 @@ OBJS = $(AOBJS) $(COBJS)
 
 ## MAINOBJ -> OBJFILES
 
-all: clean default
+all: default
 
 %.o: %.c
 	@$(CC)  $(CFLAGS) -c $< -o $@
