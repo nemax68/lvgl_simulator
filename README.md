@@ -31,7 +31,9 @@ Download and install Eclipse CDT from  http://www.eclipse.org/cdt/
 1. Open Eclipse CDT
 2. Click **File->Import** and choose **General->Existing project into Workspace**
 3. Browse the root directory of the project and click Finish
-4. Build your project and run it
+4. Build your project.
+5. Open file pc_simulator.launch
+6. Run as pc_simulator
 
 If you find an issue, please report it via GitHub!
 
